@@ -7,6 +7,7 @@
 //
 
 #import "SAViewController.h"
+#import <AFHTTPClient.h>
 
 @interface SAViewController ()
 
@@ -18,6 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    AFHTTPClient* client = [[AFHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:@"http://www.baidu.com"]];
+    [client getPath:@""
+         parameters:nil
+    otherParameters:nil
+            success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                NSLog(@"%@", responseObject);
+            } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                
+            }];
 }
 
 - (void)didReceiveMemoryWarning

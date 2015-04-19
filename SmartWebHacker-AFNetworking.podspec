@@ -10,18 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "SmartWebHacker-AFNetworking"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SmartWebHacker-AFNetworking."
+  s.summary          = "SmartWebHacker-AFNetworking is just for SmartWebHacker Library.Private Using"
   s.description      = <<-DESC
-                       An optional longer description of SmartWebHacker-AFNetworking
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       This is not a public library for Using even it created as Public. It not create with the newest AFNetowrking, so maybe you won't using it. Also this is just modify some class of the AFNetworking to support Form Uploading and some other features. Just For Private Using. Thanks
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SmartWebHacker-AFNetworking"
+  s.homepage         = "https://github.com/bytegh/SmartWebHacker-AFNetworking"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "bytelee" => "bytegm@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SmartWebHacker-AFNetworking.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/bytegh/SmartWebHacker-AFNetworking.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
