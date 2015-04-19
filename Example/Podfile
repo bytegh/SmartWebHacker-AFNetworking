@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'SmartWebHacker-AFNetworking', :exclusive => true do
+  pod "SmartWebHacker-AFNetworking", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "SmartWebHacker-AFNetworking", :path => "../"
+
+  
+end
