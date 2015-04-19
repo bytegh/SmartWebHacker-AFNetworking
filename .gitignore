@@ -1,7 +1,5 @@
-# OS X
-.DS_Store
-
 # Xcode
+#
 build/
 *.pbxuser
 !default.pbxuser
@@ -30,3 +28,4 @@ DerivedData
 # `pod install` in .travis.yml
 #
 # Pods/
+*.xcuserstate
